@@ -131,8 +131,6 @@ const ignore = [
 
   /\[immersiveengineering\]: Recipe has invalid inputs and will be ignored/,
 
-  /Coremod EyeOfDragonsPlugin: Unable to class load the plugin de.curlybracket.eyeofdragons.EyeOfDragonsPlugin/, // Reported https://github.com/MKuckert/eye-of-dragons/issues/4
-
   // Something with dcintegration mod
   /Unable to read a class file correctly/,
   /There was a problem reading the entry module-info.class in the jar .*dcintegration.*- probably a corrupt zip/,

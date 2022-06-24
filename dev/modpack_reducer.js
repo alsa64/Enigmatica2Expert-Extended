@@ -529,7 +529,6 @@ Ding-
 dropt-
 EndReborn
 Extended Item Information-
-eyeofdragons-
 FarmingForBlockheads_1.12.2-
 fencejumper-
 findme-
