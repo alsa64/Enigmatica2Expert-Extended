@@ -134,13 +134,6 @@ var ingrds as IItemStack[] = [
 mods.extendedcrafting.CombinationCrafting.addRecipe(dchest, 20000000, 2000000, <minecraft:chest>, ingrds as IIngredient[]);
 mods.actuallyadditions.Empowerer.addRecipe(dchest, <minecraft:chest>, ingrds[0], ingrds[1], ingrds[2], ingrds[3], 20000000/4, 400, [8.0, 0.1, 0.9]);
 
-mods.rt.RandomThingsTweaker.addImbuingRecipe(
-	<randomthings:specialchest>,
-	<randomthings:specialchest:1>,
-	<draconicevolution:draconium_block>,
-	<draconicevolution:draconium_chest>
-);
-
 # Combination Crafting Alternative for Ender Energy Manipulator
 mods.extendedcrafting.CombinationCrafting.addRecipe(
 	<draconicevolution:ender_energy_manipulator>, 12000000, 1200000,

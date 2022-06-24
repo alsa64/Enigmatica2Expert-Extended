@@ -838,9 +838,6 @@ remakeInAltair("mysticalagriculture:blockcustomore", <astralsorcery:blockcustomo
 	"xxx"], {x: <mysticalagriculture:rock_crystal_essence>}
 );
 
-# Adventure way to obtain Prudentium Essence
-scripts.loot.entity_kill_entity.add("minecraft:slime", <mysticalagriculture:crafting:2>);
-
 val mobChunks = {
 	"minecraft:zombie": 6,
 	"minecraft:pig": 7,

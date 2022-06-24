@@ -353,12 +353,6 @@ mods.rt.RandomThingsTweaker.addImbuingRecipe(
 	<minecraft:potion>.withTag({Potion: "minecraft:water"}),
 	<randomthings:imbue:2>
 );
-mods.rt.RandomThingsTweaker.addImbuingRecipe(
-	<minecraft:netherbrick>,
-	<minecraft:soul_sand>,
-	<minecraft:potion>.withTag({Potion: "minecraft:water"}),
-	<randomthings:imbue:3>
-);
 
 # [Sound Box] from [Citrus Wood Planks]*6[+1]
 craft.remake(<randomthings:soundbox>, ["pretty",

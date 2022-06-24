@@ -329,7 +329,6 @@ mods.extendedcrafting.TableCrafting.addShapeless(
 	<extendedcrafting:material:12>, <avaritia:resource:1>, <avaritia:resource:1>]);
 
 recipes.removeByRecipeName("avaritia:items/resource/crystal_matrix_ingot");
-addDragonForgeRecipe(<minecraft:nether_star>, <avaritia:resource> * 4, <avaritia:resource:1>);
 
 # Lattice
 var CD = <mekanism:compresseddiamond>;
