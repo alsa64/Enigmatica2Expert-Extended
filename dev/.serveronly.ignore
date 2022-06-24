@@ -14,7 +14,6 @@
 mods/*.jar
 !mods/ResourceLoader-*
 !mods/BetterAdvancements*
-!mods/betteranimals-*
 !mods/BetterFps*
 !mods/bilingualname*
 !mods/Biome Border Viewer*

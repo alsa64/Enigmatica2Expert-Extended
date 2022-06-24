@@ -42,7 +42,6 @@
   },
 	{"mob": "quark:frog","mod": "quark","mincount": 20,"result": "deny"},
 	{"mob": "quark:foxhound","mod": "quark","mincount": 20,"result": "deny"},
-	{"mob": "betteranimalsplus:eel_freshwater","mod": "betteranimalsplus","mincount": 20,"result": "deny"},
 	{"mob": "emberroot:dire_wolf","minlight": 7,"result": "deny"},
 
 	{"mob": "quark:stoneling","mod": "quark","mincount": {"amount": 3,"perchunk": true},"result": "deny"},

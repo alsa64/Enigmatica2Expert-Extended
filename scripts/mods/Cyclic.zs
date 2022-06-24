@@ -521,14 +521,6 @@ craft.remake(<cyclicmagic:glass_strong> * 6, ["pretty",
   "M": <endreborn:food_ender_flesh>, # Mysical Flesh
 });
 
-# [Fan] from [Tempered Glass][+1]
-craft.remake(<cyclicmagic:fan>, [
-  "H",
-  "T"], {
-  "H": <animania:block_hamster_wheel>, # Hamster Wheel
-  "T": <cyclicmagic:glass_strong>,     # Tempered Glass
-});
-
 # [Standard Exchange Scepter] from [Pure Certus Quartz Crystal][+2]
 craft.remake(<cyclicmagic:tool_swap>, ["pretty",
   "  ▲ ⌃",

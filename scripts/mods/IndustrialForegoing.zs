@@ -23,7 +23,6 @@ function fluidDict(ins as string[]) {
 	fluidDict(["sulfuric_acid", "sulfuricacid"]);
 	fluidDict(["hydrogen", "liquidhydrogen", "ic2hydrogen"]);
 	fluidDict(["oxygen", "liquidoxygen", "ic2oxygen"]);
-	fluidDict(["animania_honey", "for.honey", "honey"]);
 	fluidDict(["ic2milk", "milk"]);
 	fluidDict(["if.protein", "protein"]);
 	fluidDict(["ic2creosote", "creosote"]);

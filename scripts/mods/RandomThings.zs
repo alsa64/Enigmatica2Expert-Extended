@@ -193,32 +193,31 @@ var weatherIngrs = {
   "c": <mctsmelteryio:iceball>,
   "f": <minecraft:double_plant>,    # Poppy
   "l": <randomthings:ingredient:13>,# Blackout Powder
-  "e": <ore:animaniaEggs>,
 } as IIngredient[string];
 
 # [Weather_Egg_<Sun>*2] from [Egg][+3]
 craft.remake(<randomthings:weatheregg> * 4, ["pretty",
   "B f B",
-  "l e l",
+  "l B l",
   "B f B"], weatherIngrs
 );
 
 # [Weather_Egg_<Rain>*2] from [Egg][+3]
 craft.remake(<randomthings:weatheregg:1> * 8, ["pretty",
   "B C B",
-  "l e l",
+  "l B l",
   "B C B"], weatherIngrs
 );
 craft.make(<randomthings:weatheregg:1> * 4, ["pretty",
   "B c B",
-  "l e l",
+  "l B l",
   "B c B"], weatherIngrs
 );
 
 # [Weather_Egg_<Storm>*2] from [Egg][+3]
 craft.remake(<randomthings:weatheregg:2> * 4, ["pretty",
   "B a B",
-  "l e l",
+  "l B l",
   "B a B"], weatherIngrs
 );
 

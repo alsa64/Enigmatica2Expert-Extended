@@ -446,9 +446,6 @@ for item in <ore:dustAshes>.items {
 	add(<ore:dustAsh>, item);
 }
 
-# Animania wool
-add(<ore:woolPrime>, <animania:wool:*>);
-
 # Its too hard to craft for being just obsidian
 remove(<ore:gemObsidian>, <cyclicmagic:crystallized_obsidian>);
 remove(<ore:gemAmber>, <cyclicmagic:crystallized_amber>);
@@ -573,11 +570,6 @@ addItems(<ore:foodNutrients5>, [
 	<harvestcraft:deluxechickencurryitem>,
 	<harvestcraft:thankfuldinneritem>,
 	<harvestcraft:gourmetvenisonburgeritem>,
-]);
-
-addItems(<ore:listAllmeatraw>, [
-	<animania:raw_peacock>,
-	<animania:raw_prime_peacock>,
 ]);
 
 remove(<ore:dustObsidian>, <endreborn:catalyst>);

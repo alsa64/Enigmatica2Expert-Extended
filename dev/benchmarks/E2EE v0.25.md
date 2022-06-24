@@ -78,7 +78,6 @@ MC total load time:<br>
 9D3C8F  11.37s IndustrialCraft 2;
 3C9D59   8.56s Ender IO;
 3C9D86   7.14s Astral Sorcery;
-3C9A9D   7.06s Animania;
 4F9D3C   5.15s Dynamic Surroundings;
 599D3C   4.80s OpenComputers;
 9D3C3C   4.26s Forestry;
@@ -168,7 +167,6 @@ Forge Mod Loader      | 12.48|  0.00|  0.00|  0.00|  0.00|  0.00|  0.00|  0.00;
 IndustrialCraft 2     |  0.90|  0.01|  8.50|  0.85|  0.00|  1.12|  0.00|  0.00;
 Ender IO              |  1.70|  0.01|  3.71|  0.46|  2.52|  0.16|  0.00|  0.00;
 Astral Sorcery        |  0.31|  0.01|  4.26|  1.60|  0.00|  0.96|  0.00|  0.00;
-Animania              |  0.35|  0.00|  2.48|  0.11|  0.00|  4.11|  0.00|  0.00;
 Dynamic Surroundings  |  0.19|  0.00|  0.22|  0.11|  0.00|  0.05|  4.58|  0.00
 `
 /**/

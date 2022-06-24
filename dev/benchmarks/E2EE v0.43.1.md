@@ -73,7 +73,6 @@ a651a8  12.74s IndustrialCraft 2;
 8f3087  10.14s Forge Mod Loader;
 7c813e   9.43s Thaumcraft;
 813e81   8.85s OpenComputers;
-538f30   7.63s Animania;
 8f304e   7.58s Astral Sorcery;
 8f6c30   5.08s Dynamic Surroundings;
 213664   4.94s Forestry;
@@ -162,7 +161,6 @@ IndustrialCraft 2                |  0.77|  0.01|  9.39|  1.21|  0.00|  1.36|  0.
 CraftTweaker2                    |  0.62|  0.00|  3.76|  0.01|  0.00|  7.96|  0.01|  0.00;
 Thaumcraft                       |  0.78|  0.01|  0.20|  0.39|  0.01|  8.04|  0.00|  0.00;
 OpenComputers                    |  0.18|  0.01|  5.48|  3.00|  0.18|  0.00|  0.00|  0.00;
-Animania                         |  0.37|  0.00|  3.40|  0.10|  0.00|  3.77|  0.00|  0.00;
 Astral Sorcery                   |  0.24|  0.00|  4.64|  1.57|  0.00|  1.13|  0.00|  0.00;
 Dynamic Surroundings             |  0.17|  0.00|  0.22|  0.13|  0.00|  0.05|  4.51|  0.00;
 Forestry                         |  0.38|  0.01|  3.20|  0.97|  0.00|  0.39|  0.00|  0.00;

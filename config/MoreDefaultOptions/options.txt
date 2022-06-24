@@ -249,7 +249,6 @@ key_key.refinedstorage.openWirelessGrid:0
 key_key.refinedstorage.openWirelessFluidGrid:0
 key_key.refinedstorage.openPortableGrid:0
 key_key.refinedstorage.openWirelessCraftingMonitor:0
-key_dsurround.cfg.keybind.AnimaniaBadges:0
 key_key.clipboardPaste:0
 key_FpsReducer.key.guiOpen:0
 key_FpsReducer.key.forceIdle:197

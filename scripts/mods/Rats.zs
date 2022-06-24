@@ -176,19 +176,6 @@ remake("rat_upgrade_archeologist", <rats:rat_upgrade_archeologist>, [
 # Rat flowers
 scripts.process.grow(<rats:ratglove_flower>, <rats:ratglove_flower> * 9, "No exceptions", null, 0);
 
-
-var csandwich = <culinaryconstruct:sandwich>.withTag({Size: 5, Saturation: 1.1549999 as float, Ingredients: {Items: [{Slot: 0 as byte, id: "animania:sheep_cheese_wedge", Count: 1 as byte, Damage: 0 as short}, {Slot: 1 as byte, id: "animania:goat_cheese_wedge", Count: 1 as byte, Damage: 0 as short}, {Slot: 2 as byte, id: "animania:friesian_cheese_wedge", Count: 1 as byte, Damage: 0 as short}, {Slot: 3 as byte, id: "animania:holstein_cheese_wedge", Count: 1 as byte, Damage: 0 as short}, {Slot: 4 as byte, id: "animania:jersey_cheese_wedge", Count: 1 as byte, Damage: 0 as short}, {Slot: 5 as byte, id: "minecraft:bread", Count: 1 as byte, Damage: 0 as short}]}, Bonus: 2, Depth: 0, Food: 10});
-var cplate = <tconstruct:large_plate>.withTag({Material: "cheese"});
-mods.extendedcrafting.TableCrafting.addShaped(0, <rats:creative_cheese>, [
-	[cplate, cplate, csandwich, csandwich, csandwich, cplate, cplate], 
-	[cplate, <harvestcraft:cheesesteakitem>, <harvestcraft:cheesesteakitem>, <actuallyadditions:item_food>, <harvestcraft:cheesesteakitem>, <harvestcraft:cheesesteakitem>, cplate], 
-	[csandwich, <harvestcraft:cheesesteakitem>, <ore:blockLuminessence>, <mekanism:tierinstaller:3>, <ore:blockLuminessence>, <harvestcraft:cheesesteakitem>, csandwich], 
-	[csandwich, <actuallyadditions:item_food>, <mekanism:tierinstaller:3>, <ore:ingotCosmicNeutronium>, <mekanism:tierinstaller:3>, <actuallyadditions:item_food>, csandwich], 
-	[csandwich, <harvestcraft:cheesesteakitem>, <ore:blockLuminessence>, <mekanism:tierinstaller:3>, <ore:blockLuminessence>, <harvestcraft:cheesesteakitem>, csandwich], 
-	[cplate, <harvestcraft:cheesesteakitem>, <harvestcraft:cheesesteakitem>, <actuallyadditions:item_food>, <harvestcraft:cheesesteakitem>, <harvestcraft:cheesesteakitem>, cplate], 
-	[cplate, cplate, csandwich, csandwich, csandwich, cplate, cplate]
-]);
-
 # ######################################################################
 #
 # Compat material using
@@ -379,17 +366,6 @@ craft.remake(<rats:rat_lantern> * 8, [
   "‚": <ore:nuggetGold>, # Gold Nugget
   "A": <ore:foodRatraw>, # Raw Rat
   "C": <forestry:carton>,# Carton
-});
-
-# Skyblock alt
-# [Plague Essence] from [Antler][+2]
-craft.make(<rats:plague_essence>, ["pretty",
-  "B C B",
-  "C A C",
-  "B C B"], {
-  "B": <ore:paperBlack>,                         # Black Paper
-  "C": <contenttweaker:compressed_garbage_pile>, # Compressed Garbage Pile
-  "A": <betteranimalsplus:antler>,               # Antler
 });
 
 # Peaceful alt

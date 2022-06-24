@@ -330,7 +330,6 @@ const style = {
   ) // Bansoukou-patched files should be handled separately
 
   // List of mods, patched with Bansoukou, but without extension
-  // mods/betteranimalsplus-1.12.2-9.0.1
   // mods/NuclearCraft-2.18zz-1.12.2
   const unpatchedList = globs('mods/*-patched.jar').map((f) =>
     f.replace('-patched.jar', '')

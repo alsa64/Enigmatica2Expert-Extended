@@ -71,7 +71,6 @@ a651a8  10.92s IndustrialCraft 2;
 495797   8.80s CraftTweaker2 (Script Loading);
 213664   4.94s Forestry;
 6e175e   4.87s Recurrent Complex;
-538f30   4.10s Animania;
 436e17   4.01s Integrated Dynamics;
 308f53   3.87s Village Names;
 a86e51   3.60s Extra Utilities 2;
@@ -162,7 +161,6 @@ Immersive Engineering |  0.96|  0.01|  1.17|  1.06|  0.00|  3.90|  0.00|  0.00;
 CraftTweaker2         |  0.54|  0.00|  3.29|  0.01|  0.00|  2.98|  0.02|  0.00;
 Forestry              |  0.41|  0.01|  3.04|  1.05|  0.00|  0.43|  0.00|  0.00;
 Recurrent Complex     |  0.25|  0.01|  0.63|  1.19|  0.00|  2.79|  0.00|  0.00;
-Animania              |  0.31|  0.00|  3.27|  0.10|  0.00|  0.42|  0.00|  0.00;
 Integrated Dynamics   |  0.25|  0.01|  3.70|  0.06|  0.00|  0.00|  0.00|  0.00;
 Village Names         |  0.11|  0.00|  3.55|  0.21|  0.00|  0.00|  0.00|  0.00
 `

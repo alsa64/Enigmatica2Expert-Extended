@@ -85,7 +85,6 @@ Note for image scripts:
 8D9D3C  11.97s Forge Mod Loader;
 3C9D59  11.46s Ender IO;
 9D3C8F  10.30s IndustrialCraft 2;
-3C9A9D   8.03s Animania;
 599D3C   7.77s OpenComputers;
 3C9D86   6.95s Astral Sorcery;
 4F9D3C   5.46s Dynamic Surroundings;
@@ -177,7 +176,6 @@ Immersive Engineering |  0.87|  0.01|  1.04|  0.81|  0.00| 13.86|  0.00|  0.00;
 CraftTweaker2         |  0.55|  0.00|  2.81|  0.00|  0.00| 10.09|  0.02|  0.00;
 Ender IO              |  1.83|  0.01|  4.16|  0.45|  3.55|  0.16|  0.00|  1.31;
 IndustrialCraft 2     |  0.79|  0.01|  7.27|  0.88|  0.00|  1.34|  0.00|  0.00;
-Animania              |  0.27|  0.00|  2.64|  0.08|  0.00|  5.04|  0.00|  0.00;
 OpenComputers         |  0.17|  0.01|  4.79|  2.64|  0.16|  0.00|  0.00|  0.00;
 Astral Sorcery        |  0.22|  0.00|  4.37|  1.39|  0.00|  0.97|  0.00|  0.00;
 Dynamic Surroundings  |  0.21|  0.00|  0.33|  0.12|  0.00|  0.06|  4.74|  0.00;

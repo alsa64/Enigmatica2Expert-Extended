@@ -63,24 +63,6 @@ import scripts.craft.grid.Grid;
 	recipes.addShapeless("Blood Magic Guide", 
 	<guideapi:bloodmagic-guide>, 
 	[<minecraft:book>,<bloodmagic:soul_snare>]);
-	
-# Animania Random Animal Spawn Egg
-	mods.forestry.Carpenter.addRecipe(<animania:entity_egg_random>, 
-	[[null , <cyclicmagic:sprout_seed>, null],
-	[<ore:egg>,<ore:egg>,<ore:egg>],
-	[null, <cyclicmagic:sprout_seed>, null]], 
-	40, <liquid:meat> * 500);
-	
-	mods.forestry.Carpenter.addRecipe(<animania:entity_egg_random>, 
-	[[null , <cyclicmagic:sprout_seed>, null],
-	[<ore:egg>,<ore:egg>,<ore:egg>],
-	[null, <cyclicmagic:sprout_seed>, null]], 
-	40, <liquid:liquiddna> * 250);
-	
-# Mud conversion
-	recipes.remove(<animania:block_mud>);
-	recipes.addShapeless("BoP Mud", <biomesoplenty:mud>, [<animania:block_mud>]);
-	recipes.addShapeless("Animania Mud", <animania:block_mud>, [<biomesoplenty:mud>]);
 
 # Iridium conversion
 	recipes.addShapeless(<thermalfoundation:material:135> * 2, [<ic2:misc_resource:1>, <ic2:misc_resource:1>]);

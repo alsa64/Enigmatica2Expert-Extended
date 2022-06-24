@@ -1,17 +1,5 @@
 #modloaded thaumadditions
 
-# [Entity Cell] from [Simple Arcane Mechanism][+8]
-mods.thaumcraft.ArcaneWorkbench.registerShapelessRecipe(
-  "dna_sample", # Name
-  "TAR_MOB_SUMMONING@1", # Research
-  50, # Vis cost
-  [<aspect:aer>, <aspect:aqua>, <aspect:ordo>, <aspect:perditio>, <aspect:terra>, <aspect:ignis>],
-  <thaumadditions:dna_sample>, # Output
-  [
-  <animania:hamster_ball_clear:*> | <animania:hamster_ball_colored:*>, # Clear Hamster Ball
-  <thaumcraft:mechanism_simple>, # Simple Arcane Mechanism
-]);
-
 # [Adaminite Block] from [Mithrillium Block][+9]
 mods.thaumcraft.Infusion.removeRecipe(<thaumadditions:adaminite_ingot>);
 mods.thaumcraft.Infusion.registerRecipe(

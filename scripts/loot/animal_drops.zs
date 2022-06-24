@@ -94,39 +94,7 @@ tweak("randomthings:beanpod", "Diamond", "minecraft:diamond", null, [<biomesople
 
 
 # Add drops
-<entity:betteranimalsplus:zotzpyre>.addDrop(<harvestcraft:hardenedleatheritem> % 70, 1, 3);
-<entity:betteranimalsplus:zotzpyre>.addPlayerOnlyDrop(<harvestcraft:netherwingsitem>, 1, 3);
 <entity:minecraft:endermite>.addDrop(<appliedenergistics2:material:46>, 1, 3);
 <entity:minecraft:endermite>.addPlayerOnlyDrop(<endreborn:wolframium_nugget>, 1, 6);
 <entity:netherendingores:netherfish>.addPlayerOnlyDrop(<forestry:ash>, 3, 12);
 <entity:emberroot:fairies>.addPlayerOnlyDrop(<astralsorcery:itemusabledust>, 1, 6);
-
-# Add 2-3 more Rabbit Legs to Animania's rabbits
-for entity in [
-  <entity:animania:buck_chinchilla>,
-  <entity:animania:buck_cottontail>,
-  <entity:animania:buck_dutch>,
-  <entity:animania:buck_havana>,
-  <entity:animania:buck_jack>,
-  <entity:animania:buck_lop>,
-  <entity:animania:buck_new_zealand>,
-  <entity:animania:buck_rex>,
-  <entity:animania:doe_chinchilla>,
-  <entity:animania:doe_cottontail>,
-  <entity:animania:doe_dutch>,
-  <entity:animania:doe_havana>,
-  <entity:animania:doe_jack>,
-  <entity:animania:doe_lop>,
-  <entity:animania:doe_new_zealand>,
-  <entity:animania:doe_rex>,
-  <entity:animania:kit_chinchilla>,
-  <entity:animania:kit_cottontail>,
-  <entity:animania:kit_dutch>,
-  <entity:animania:kit_havana>,
-  <entity:animania:kit_jack>,
-  <entity:animania:kit_lop>,
-  <entity:animania:kit_new_zealand>,
-  <entity:animania:kit_rex>,
-] as IEntityDefinition[] {
-  entity.addPlayerOnlyDrop(<minecraft:rabbit_foot>, 2, 3);
-}

@@ -159,7 +159,6 @@ addReduceLevel(
   'Soft',
   'Remove client-only mods, that has impact on performance. Could save ~20 seconds on load time and some FPS.',
   `
-betteranimals-
 DynamicSurroundings
 OreLib
 Sound-Physics-
@@ -231,7 +230,6 @@ QuarkOddities-
 MineMenu-
 bettercaves-
 
-betteranimalsplus-
 JustEnoughCalculation-
 ServerTabInfo-
 Born In A Barn

@@ -52,16 +52,6 @@ val merchData = {
       ],
     },
     "fletcher": {
-      3: [
-        [E, <animania:wool:0>],
-        [E, <animania:wool:1>],
-        [E, <animania:wool:2>],
-        [E, <animania:wool:3>],
-        [E, <animania:wool:4>],
-        [E, <animania:wool:5>],
-        [E, <animania:wool:6>],
-        [<animania:wool:*>, E],
-      ],
       4: [
         [E*64, <cyclicmagic:shears_obsidian>],
         [E*20, <cyclicmagic:ender_wool>],
@@ -69,7 +59,6 @@ val merchData = {
         [<excompressum:bait:5>, E],
       ],
       5: [
-        [E*10, <animania:entity_egg_sheep_random>],
         [E*50, <openblocks:trophy>.withTag({entity_id: "minecraft:sheep"})],
         [E*2, <thermalfoundation:rockwool:7>],
         [<thermalfoundation:rockwool:*>, E],
@@ -164,7 +153,6 @@ val merchData = {
     },
     "tool": {
       4: [
-        [E*8, <animania:carving_knife>],
         [E*9, <actuallyadditions:item_knife>],
       ],
       5: [
@@ -202,26 +190,7 @@ val merchData = {
   },
   "minecraft:butcher": {
     "leather": {
-      3: [
-        [E*3, <animania:raw_prime_rabbit>],
-        [E*3, <animania:raw_peacock>],
-        [E*3, <animania:raw_horse>],
-        [E*3, <animania:raw_chevon>],
-        [E*3, <betteranimalsplus:pheasantraw>],
-        [E*3, <betteranimalsplus:turkey_leg_raw>],
-        [E*3, <betteranimalsplus:eel_meat_raw>],
-        [E*3, <betteranimalsplus:turkey_raw>],
-        [E*3, <animania:raw_prime_steak>],
-        [E*3, <animania:raw_prime_bacon>],
-        [<animania:carving_knife>, E*3],
-      ],
       4: [
-        [E*11, <animania:raw_prime_peacock>],
-        [E*11, <animania:raw_prime_beef>],
-        [E*11, <animania:raw_prime_pork>],
-        [E*11, <animania:raw_prime_chicken>],
-        [E*11, <animania:raw_prime_mutton>],
-        [E*11, <animania:raw_prime_chevon>],
         [E*11, <harvestcraft:turkeyrawitem>],
         [E*11, <harvestcraft:venisonrawitem>],
         [<actuallyadditions:item_knife>, E*4],
@@ -241,20 +210,9 @@ val merchData = {
     "butcher": {
       3: [
         [E*2, <harvestcraft:hardenedleatheritem>],
-        [E*5, <betteranimalsplus:wolf_pelt_snowy>],
-        [E*5, <betteranimalsplus:wolf_pelt_timber>],
-        [E*5, <betteranimalsplus:wolf_pelt_black>],
-        [E*5, <betteranimalsplus:wolf_pelt_arctic>],
-        [E*5, <betteranimalsplus:wolf_pelt_brown>],
-        [E*5, <betteranimalsplus:wolf_pelt_red>],
       ],
       4: [
         [E*35, <additionalcompression:leather_compressed>],
-      ],
-      5: [
-        [<betteranimalsplus:bear_skin_brown>, E*10],
-        [<betteranimalsplus:bear_skin_black>, E*10],
-        [<betteranimalsplus:bear_skin_kermode>, E*10],
       ],
     },
   },
@@ -312,7 +270,6 @@ val merchData = {
   //     5: [
   //       [E*4, <harvestcraft:honeyitem>],
   //       [E*4, <rustic:honeycomb>],
-  //       [E*7, <animania:honey_bottle>.withTag({Fluid: {FluidName: "animania_honey", Amount: 1000}})],
   //       [E*1, <rustic:beeswax>*5],
   //       [E*2, <harvestcraft:grubitem>*10],
   //       [<rustic:apiary>, E],
@@ -321,7 +278,6 @@ val merchData = {
   //       [E*2, <harvestcraft:honeycombitem>*2],
   //       [E*2, <rustic:bee>],
   //       [<harvestcraft:apiary>, E*5],
-  //       [<animania:bee_hive>, E*20],
   //     ],
   //     7: [
   //       [E*4, <biomesoplenty:honey_block>],
@@ -330,7 +286,6 @@ val merchData = {
   //       [E*6, <harvestcraft:queenbeeitem>],
   //       [E*9, <rustic:beehive>],
   //       [E*9, <harvestcraft:beehive>],
-  //       [E*20, <animania:wild_hive>],
   //     ],
   //   },
   //   "arborist": {

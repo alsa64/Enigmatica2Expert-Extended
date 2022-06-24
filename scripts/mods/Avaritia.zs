@@ -135,22 +135,6 @@ mods.extendedcrafting.TableCrafting.addShapeless(
 	.sort(naturalSort)
   .map(o=>`    ${isJEIBlacklisted(o)?'#':''}<${o}>,`)
 )*/
-    <animania:raw_chevon>,
-    <animania:raw_frog_legs>,
-    <animania:raw_horse>,
-    <animania:raw_peacock>,
-    <animania:raw_prime_beef>,
-    <animania:raw_prime_chevon>,
-    <animania:raw_prime_chicken>,
-    <animania:raw_prime_mutton>,
-    <animania:raw_prime_peacock>,
-    <animania:raw_prime_pork>,
-    <animania:raw_prime_rabbit>,
-    <animania:raw_prime_steak>,
-    <betteranimalsplus:pheasantraw>,
-    <betteranimalsplus:turkey_leg_raw>,
-    <betteranimalsplus:turkey_raw>,
-    <betteranimalsplus:venisonraw>,
     <harvestcraft:duckrawitem>,
     <harvestcraft:groundbeefitem>,
     <harvestcraft:groundchickenitem>,
