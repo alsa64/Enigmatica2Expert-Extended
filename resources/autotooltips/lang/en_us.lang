@@ -19,7 +19,6 @@ tooltips.lang.computercraft:printout=§fPrint with §eComputer Craft§r's §bPri
 tooltips.lang.farmingforblockheads:feeding_trough=§eDoesn't work if there are more than 8 animals
 tooltips.lang.ic2:quantum_chestplate=§bSpace+V§r to hover\n§bShift+V§r to disable
 tooltips.lang.ic2:te:48=Disabled. Use the Advanced Scrap Factory
-tooltips.lang.minecraft:torch=§4Light level was nerfed
 tooltips.lang.openblocks:tank=Stores up to §f24§r buckets
 tooltips.lang.opencomputers:print=§51)§r Setup Tier2+ computer with Internet card\n§52)§r Craft & insert OPPM floppy\n§53)§r Run §n"install oppm"§r\n§54)§r Run §n"oppm install print3d"§r and §n"oppm install print3d-examples"§r\n§55)§r §n"print3d ../usr/share/models/cc.3dm"§r
 tooltips.lang.quark:archaeologist_hat=Increases Gems drop when mining by 100%

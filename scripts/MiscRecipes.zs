@@ -398,9 +398,6 @@ scripts.process.compress(<minecraft:packed_ice> * 2, <biomesoplenty:hard_ice>);
 # Remove Glass pane non-oredict recipe
 recipes.removeByRecipeName("minecraft:glass_pane");
 
-# Nerf torches from Light level 14
-<minecraft:torch>.asBlock().definition.lightLevel = 0.7f;
-
 # Prevent melting dupe
 craft.remake(<quark:obsidian_pressure_plate>, ["AA","AA"], {A: <ore:obsidian>});
 

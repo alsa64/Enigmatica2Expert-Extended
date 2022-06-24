@@ -468,8 +468,6 @@ craft.remake(<actuallyadditions:block_bio_reactor>, ["pretty",
   "☼": <ore:crystalEnori>                # Enori Crystal
 });
 
-<actuallyadditions:block_tiny_torch>.asBlock().definition.lightLevel = 0.65f;
-
 # [Fluid Collector] from [Auto-Breaker][+1]
 recipes.removeByRecipeName("actuallyadditions:recipes142");
 craft.make(<actuallyadditions:block_fluid_collector>, [

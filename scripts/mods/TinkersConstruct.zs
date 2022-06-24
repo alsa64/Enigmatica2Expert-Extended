@@ -371,9 +371,6 @@ craft.remake(<tconstruct:firewood:1>, ["pretty",
 	"~": Bucket("ic2pahoehoe_lava")  # Pahoehoe Lava Bucket
 });
 
-# Nerf stone torch light level
-<tconstruct:stone_torch>.asBlock().definition.lightLevel = 0.75f;
-
 # [Silky Cloth] from [Pulverized Gold][+1]
 craft.reshapeless(<tconstruct:materials:15>, "S▲", {
   "▲": <ore:dustGold>,                 # Pulverized Gold
