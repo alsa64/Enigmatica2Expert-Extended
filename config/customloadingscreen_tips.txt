@@ -2,7 +2,6 @@ Can see through some of the blocks? Disable VBOs in video settings.
 Enabling VSync lowers FPS.
 Armor damage reductions are reworked in this modpack. 
 Many vanilla tools have 1 durability. Easy to repair and melt.
-Harder Branch Mining starts from Y level 45.
 If you load faster then 3 minutes - report to modpack author.
 Modpack's load time is 10 minutes in average. 3 mins was last known record.
 You have 4 extra bauble ring slots.
