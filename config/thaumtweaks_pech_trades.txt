@@ -115,33 +115,19 @@ COMMON:
 	rustic:fluid_bottle {Fluid: {FluidName: "wine", Amount: 1000, Tag: {Quality: 1.0f}}} // Bottle of Wine
 	rustic:fluid_bottle {Fluid: {FluidName: "mead", Amount: 1000, Tag: {Quality: 1.0f}}} // Bottle of Mead
 	2:
-	mysticalagriculture:prudentium_apple // Prudentium Apple
-	bhc:relic_apple 4 // Relic Apple
-	thaumcraft:curio:5 4 // Twisted Curiosity
-	scalingfeast:exhaustingapple 5 // Exhausting Apple
-	cyclicmagic:apple // Apple Sprout
-	thaumcraft:lamp_arcane // Arcane Lamp
-	3:
 	mysticalagriculture:intermedium_apple // Intermedium Apple
 	minecraft:golden_apple 4 // Golden Apple
 	thaumcraft:curio 4 // Arcane Curiosity
 	thaumcraft:curio:2 4 // Ancient Curiosity
 	thaumadditions:dawn_totem // Totem of Dawn
 	thaumadditions:twilight_totem // Twilight Totem
-	4:
+	3:
 	mysticalagriculture:superium_apple // Superium Apple
 	minecraft:golden_apple:1 // Golden Apple
 	thaumcraft:curio:4 5 // Illuminating Curiosity
 	thaumcraft:sanity_soap // Sanitizing Soap
 	thaumcraft:mechanism_complex // Complex Arcane Mechanism
 	bloodmagic:soul_snare // Rudimentary Snare
-	5:
-	mysticalagriculture:supremium_apple // Supremium Apple
-	scalingfeast:enchantedironapple // Iron Apple
-	thaumcraft:curio:3 6 // Eldritch Curiosity
-	thaumadditions:zeith_fur 3 // Blue Wolf Fur
-	minecraft:totem_of_undying 3 // Totem of Undying
-	thaumadditions:jar_eldritch // Void Reinforced Jar
 
 #parsing ends with a line starting with #, everything below is a comment. 
 The format of this file is quite obvious, <item> [tag] [weight]. I just want to specify that 

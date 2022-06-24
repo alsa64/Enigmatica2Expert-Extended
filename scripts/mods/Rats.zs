@@ -337,9 +337,7 @@ craft.remake(<rats:chunky_cheese_token>, ["pretty",
 #--------------------------------------------------------------------------------------
 # Add additional gemcutter recipes as alternatives
 
-val gemcutterList = [
-  <quark:jasper>                 , <scalingfeast:exhaustingnugget> * 2, # [Exhausting Nugget] from [Jasper]
-  
+val gemcutterList = [  
   <minecraft:redstone>           , <actuallyadditions:block_crystal_cluster_redstone>,
   <minecraft:dye:4>              , <actuallyadditions:block_crystal_cluster_lapis>,
   <minecraft:diamond>            , <actuallyadditions:block_crystal_cluster_diamond>,

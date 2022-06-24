@@ -1,12 +1,5 @@
 #modloaded bhc
 
-# [Relic Apple]*2 from [Exhausting Apple][+2]
-craft.reshapeless(<bhc:relic_apple> * 2, "q§M", {
-  "q": <ore:quicksilver>,              # Quicksilver
-  "§": <scalingfeast:exhaustingapple>, # Exhausting Apple
-  "M": <extrautils2:magicapple>,       # Magical Apple
-});
-
 # [Heart Amulet] from [Cobweb][+2]
 craft.remake(<bhc:heart_amulet>, ["pretty",
   "H   H",

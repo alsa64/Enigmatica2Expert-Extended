@@ -1443,7 +1443,6 @@ add(x, {[              <thaumcraft:metal_brass:*>, glyphs['1']] : [null, <minecr
 add(x, {[  <endreborn:block_decorative_lormyte:*>, glyphs['1']] : [null, <minecraft:potion>.withTag({Potion: "potioncore:step_up"})]});
 add(x, {[          <tconstruct:slime_congealed:0>, glyphs['2']] : [<minecraft:potion>.withTag({Potion: "potioncore:recoil"})]});
 add(x, {[              <thaumcraft:amber_block:*>, glyphs['2']] : [<minecraft:potion>.withTag({Potion: "potioncore:health_boost"})]});
-add(x, {[        <scalingfeast:exhaustingblock:*>, glyphs['2']] : [<minecraft:potion>.withTag({Potion: "scalingfeast:hungerplus"})]});
 add(x, {[    <twilightforest:knightmetal_block:*>, glyphs['2']] : [null, <minecraft:potion>.withTag({Potion: "potioncore:repair"})]});
 add(x, {[           <twilightforest:huge_stalk:*>, glyphs['2']] : [null, <minecraft:potion>.withTag({Potion: "cyclicmagic:slowfall"})]});
 add(x, {[        <twilightforest:block_storage:4>, glyphs['3']] : [<minecraft:potion>.withTag({Potion: "potioncore:magic_focus"})]});
@@ -1650,13 +1649,6 @@ COMMON: [[
     <rustic:fluid_bottle>.withTag(sNBT('{Fluid: {FluidName: "wine", Amount: 1000, Tag: {Quality: 1.0f}}}')),
     <rustic:fluid_bottle>.withTag(sNBT('{Fluid: {FluidName: "mead", Amount: 1000, Tag: {Quality: 1.0f}}}')),
   ], [
-    <mysticalagriculture:prudentium_apple>,
-    <bhc:relic_apple> * 4,
-    <thaumcraft:curio:5> * 4,
-    <scalingfeast:exhaustingapple> * 5,
-    <cyclicmagic:apple>,
-    <thaumcraft:lamp_arcane>,
-  ], [
     <mysticalagriculture:intermedium_apple>,
     <minecraft:golden_apple> * 4,
     <thaumcraft:curio> * 4,
@@ -1670,14 +1662,7 @@ COMMON: [[
     <thaumcraft:sanity_soap>,
     <thaumcraft:mechanism_complex>,
     <bloodmagic:soul_snare>,
-  ], [
-    <mysticalagriculture:supremium_apple>,
-    <scalingfeast:enchantedironapple>,
-    <thaumcraft:curio:3> * 6,
-    <thaumadditions:zeith_fur> * 3,
-    <minecraft:totem_of_undying> * 3,
-    <thaumadditions:jar_eldritch>,
-]]
+  ]]
 /**/
 } as IItemStack[][][string];
 

@@ -608,10 +608,6 @@
 		weight: 10
 	},
 	{
-		item: "scalingfeast:heartyshank",
-		weight: 20
-	},
-	{
 		item: "openblocks:beartrap",
 		count: 3,
 		weight: 10

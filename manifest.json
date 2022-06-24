@@ -359,7 +359,6 @@
     {"projectID":367103,"fileID":3517526,"required":true,"___name":"ModDirector"},
     {"projectID":367831,"fileID":3543884,"required":true,"___name":"AI Reducer"},
     {"projectID":368699,"fileID":2926181,"required":true,"___name":"Converting Industrial Wires"},
-    {"projectID":370995,"fileID":3460677,"required":true,"___name":"Scaling Feast"},
     {"projectID":376351,"fileID":3015136,"required":true,"___name":"Framed Compacting Drawers"},
     {"projectID":376903,"fileID":3648592,"required":true,"___name":"xXx_MoreToolMats_xXx (a PlusTiC fork without the evil, and apparently some new bugs idk)"},
     {"projectID":377088,"fileID":2972692,"required":true,"___name":"[FORGE/FABRIC] Armor Curve"},
