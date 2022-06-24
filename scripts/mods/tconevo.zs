@@ -14,16 +14,6 @@ for item in loadedMods["tconevo"].items {
   }
 }
 
-# [Ghostwood Shard]*8 from [Dreadwood Log]
-craft.make(<tconstruct:shard>.withTag({Material: "ghostwood"}) * 16, ["##"], {
-  "#": <iceandfire:dreadwood_log>, # Dreadwood Log
-});
-
-# [Ghostwood Shard]*4 from [Dreadwood Planks]
-craft.make(<tconstruct:shard>.withTag({Material: "ghostwood"}) * 8, ["# ", " #"], {
-  "#": <iceandfire:dreadwood_planks>, # Dreadwood Planks
-});
-
 # [Darkwood Shard]*8 from [Lightwood Wood]
 craft.make(<tconstruct:shard>.withTag({Material: "darkwood"}) * 16, ["##"], {
   "#": <advancedrocketry:alienwood>, # Lightwood Wood

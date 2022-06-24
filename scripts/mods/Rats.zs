@@ -224,16 +224,6 @@ mods.mekanism.enrichment.addRecipe(<rats:rat_diamond>, compressed_D);
 # Magic bean
 mods.rats.recipes.addChefRatRecipe(<randomthings:beans:1>, <randomthings:beans:2>);
 
-# addArcheologistRatRecipe(IItemStack iinput, IItemStack ioutput)
-mods.rats.recipes.addArcheologistRatRecipe(<minecraft:skull:3>, <iceandfire:gorgon_head>);
-mods.rats.recipes.addArcheologistRatRecipe(<minecraft:ghast_tear>, <iceandfire:siren_tear>);
-mods.rats.recipes.addArcheologistRatRecipe(<iceandfire:dragonbone>, <iceandfire:troll_tusk>);
-mods.rats.recipes.addArcheologistRatRecipe(<twilightforest:raven_feather>, <iceandfire:stymphalian_bird_feather>);
-mods.rats.recipes.addArcheologistRatRecipe(<rats:rat_pelt>, <iceandfire:troll_leather_forest>);
-mods.rats.recipes.addArcheologistRatRecipe(<harvestcraft:hardenedleatheritem>, <iceandfire:troll_leather_frost>);
-mods.rats.recipes.addArcheologistRatRecipe(<redstonerepository:tool.sword_gelid>, <endreborn:sword_shard>);
-mods.rats.recipes.addArcheologistRatRecipe(<mysticalagradditions:stuff:1>, <iceandfire:dread_shard> * 3);
-
 ##################
 
 # Casting sawblade

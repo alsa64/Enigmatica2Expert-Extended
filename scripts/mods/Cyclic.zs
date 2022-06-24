@@ -119,16 +119,6 @@ craft.remake(<cyclicmagic:crystallized_obsidian>, ["pretty",
   "h": <integratedterminals:chorus_glass>, # Chorus Glass
 });
 
-# [Empty Heart Container] from [Conglomerate_Of_Life][+2]
-craft.remake(<cyclicmagic:heart_toxic>, ["pretty",
-  "☼ S ☼",
-  "☼ C ☼",
-  "☼ ☼ ☼"], {
-  "S": <iceandfire:siren_tear>,               # Siren Tear
-  "C": <contenttweaker:conglomerate_of_life>, # Conglomerate Of Life
-  "☼": <scalinghealth:heartdust>,             # Heart Dust
-});
-
 # ---------------------------------------------
 # Cyclic machines rework
 # https://github.com/Lothrazar/Cyclic/tree/trunk/1.12/scripts_zen_example

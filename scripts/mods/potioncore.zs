@@ -224,10 +224,6 @@ addBrewWithUpgrades(
   awkward, <biomesoplenty:fleshchunk>, "potioncore:extension",
   "potioncore:strong_extension", "potioncore:long_extension"
 );
-addBrewWithUpgrades(
-  awkward, <iceandfire:pixie_dust>, "potioncore:bless",
-  "potioncore:strong_bless", null
-);
 addBrewWithUpgradesFromBase(
   "potioncore:bless", fermentedSpiderEye, "potioncore:curse",
   "potioncore:strong_curse", null,

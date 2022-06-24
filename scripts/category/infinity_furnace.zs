@@ -35,7 +35,6 @@ const manualBlacklist = new Set(`
 biomesoplenty:mud
 biomesoplenty:mudball
 ic2:dust:3
-iceandfire:dread_stone_bricks
 minecraft:stonebrick
 minecraft:sponge
 mysticalagriculture:soulstone:1
@@ -264,21 +263,6 @@ infinFurnace(utils.get("ic2:purified", 4), utils.get("thermalfoundation:material
 infinFurnace(utils.get("ic2:purified", 5), utils.get("thermalfoundation:material", 129));
 infinFurnace(utils.get("ic2:purified"), utils.get("thermalfoundation:material", 128));
 infinFurnace(utils.get("ic2:rubber_wood", W), utils.get("minecraft:log", 3));
-//infinFurnace(utils.get("iceandfire:dread_stone_bricks", W), utils.get("iceandfire:dread_stone_bricks_cracked"));
-infinFurnace(utils.get("iceandfire:frozen_cobblestone", W), utils.get("minecraft:cobblestone"));
-infinFurnace(utils.get("iceandfire:frozen_dirt", W), utils.get("minecraft:dirt"));
-infinFurnace(utils.get("iceandfire:frozen_grass_path", W), utils.get("minecraft:grass_path"));
-infinFurnace(utils.get("iceandfire:frozen_grass", W), utils.get("minecraft:grass"));
-infinFurnace(utils.get("iceandfire:frozen_gravel", W), utils.get("minecraft:gravel"));
-infinFurnace(utils.get("iceandfire:frozen_splinters", W), utils.get("minecraft:stick", 0, 3));
-infinFurnace(utils.get("iceandfire:frozen_stone", W), utils.get("minecraft:stone"));
-infinFurnace(utils.get("iceandfire:hippogryph_egg", W), utils.get("betteranimalsplus:fried_egg"));
-infinFurnace(utils.get("iceandfire:iceandfire.deathworm_egg", W), utils.get("betteranimalsplus:fried_egg"));
-infinFurnace(utils.get("iceandfire:myrmex_desert_egg", W), utils.get("betteranimalsplus:fried_egg"));
-infinFurnace(utils.get("iceandfire:myrmex_desert_resin_block", W), utils.get("iceandfire:myrmex_desert_resin_glass"));
-infinFurnace(utils.get("iceandfire:myrmex_jungle_egg", W), utils.get("betteranimalsplus:fried_egg"));
-infinFurnace(utils.get("iceandfire:myrmex_jungle_resin_block", W), utils.get("iceandfire:myrmex_jungle_resin_glass"));
-infinFurnace(utils.get("iceandfire:stymphalian_bird_feather", W), utils.get("thermalfoundation:material", 227));
 ##infinFurnace(utils.get("immersiveengineering:material", 18), utils.get("immersiveengineering:material", 19));
 ##infinFurnace(utils.get("immersiveengineering:metal", 14), utils.get("immersiveengineering:metal", 5));
 infinFurnace(utils.get("immersiveengineering:ore", 5), utils.get("immersiveengineering:metal", 5));

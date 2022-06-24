@@ -1,28 +1,4 @@
 {
-  "iceandfire-*": {
-    "assets/iceandfire/advancements/iceandfire/root.json": {
-      "display": {
-        "icon": {
-          "item": "iceandfire:dragon_skull"
-        },
-        "title": {
-          "translate": "advancements.iceandfire.root.title"
-        },
-        "description": {
-          "translate": "advancements.iceandfire.root.description"
-        },
-        "background": "iceandfire:textures/blocks/dragonscale_red.png",
-        "show_toast": false,
-        "announce_to_chat": false,
-        "hidden": false
-      },
-      "criteria": {
-        "tick": {
-          "trigger": "minecraft:tick"
-        }
-      }
-    }
-  },
   "betteranimalsplus*": {
     "assets/betteranimalsplus/advancements/root.json": {
       "display": {

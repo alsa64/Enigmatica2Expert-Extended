@@ -344,14 +344,6 @@ mods.extendedcrafting.TableCrafting.addShapeless(
 	[<avaritia:resource:1>, <avaritia:resource:1>, <extendedcrafting:material:12>, 
 	<extendedcrafting:material:12>, <avaritia:resource:1>, <avaritia:resource:1>]);
 
-
-
-# Using Dragon forge to harder recipes
-function addDragonForgeRecipe(input1 as IItemStack, input2 as IItemStack, output as IItemStack) {
-	mods.iceandfire.recipes.addFireDragonForgeRecipe(input1, input2, output);
-	mods.iceandfire.recipes.addIceDragonForgeRecipe(input1, input2, output);
-}
-
 recipes.removeByRecipeName("avaritia:items/resource/crystal_matrix_ingot");
 addDragonForgeRecipe(<minecraft:nether_star>, <avaritia:resource> * 4, <avaritia:resource:1>);
 

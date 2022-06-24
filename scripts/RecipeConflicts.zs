@@ -3,11 +3,6 @@
 recipes.addShapeless(<botania:quartztypedark>, [<thaumictinkerer:black_quartz_block>]);
 recipes.addShapeless(<thaumictinkerer:black_quartz_block>, [<botania:quartztypedark>]);
 
-# Disk Platter / Iron Chain Link
-	craft.remake(<iceandfire:chain_link> * 2, ["AAA","A A","AAA"],{
-		A: <ore:nuggetFakeIron>,
-	});
-
 # Polished Marble / Marble Pavement
 	recipes.remove(<quark:marble:1>);
 

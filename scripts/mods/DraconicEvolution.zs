@@ -136,14 +136,6 @@ mods.actuallyadditions.Empowerer.addRecipe(dchest, <minecraft:chest>, ingrds[0],
 
 mods.rt.RandomThingsTweaker.addImbuingRecipe(
 	<randomthings:specialchest>,
-	<iceandfire:desert_myrmex_cocoon>,
-	<randomthings:specialchest:1>,
-	<draconicevolution:draconium_block>,
-	<draconicevolution:draconium_chest>
-);
-mods.rt.RandomThingsTweaker.addImbuingRecipe(
-	<randomthings:specialchest>,
-	<iceandfire:jungle_myrmex_cocoon>,
 	<randomthings:specialchest:1>,
 	<draconicevolution:draconium_block>,
 	<draconicevolution:draconium_chest>
@@ -157,20 +149,6 @@ mods.extendedcrafting.CombinationCrafting.addRecipe(
 		B: <draconicevolution:dislocator>,
 		C: <deepmoblearning:pristine_matter_enderman>,
 	}).shapeless());
-
-# [Bound Dislocator (Point to Point)] from [Siren Tear][+2]
-craft.reshapeless(<draconicevolution:dislocator_bound:1>, "DrDS", {
-  "r": <draconicevolution:infused_obsidian>,       # Draconium Infused Obsidian
-  "S": <iceandfire:siren_tear>,                    # Siren Tear
-  "D": <draconicevolution:dislocator>.anyDamage(), # Dislocator
-});
-
-# [Bound Dislocator (Player)] from [Draconium Infused Obsidian][+2]
-craft.reshapeless(<draconicevolution:dislocator_bound:2>, "DrS", {
-  "r": <draconicevolution:infused_obsidian>,       # Draconium Infused Obsidian
-  "S": <iceandfire:siren_tear>,                    # Siren Tear
-  "D": <draconicevolution:dislocator>.anyDamage(), # Dislocator
-});
 
 # Harder to better fit as endgame ingredient
 # Defined in other files

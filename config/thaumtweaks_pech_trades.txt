@@ -57,13 +57,6 @@ MAGE:
 	cyclicmagic:charm_boat // Sailor Charm
 	cyclicmagic:charm_fire // Fire Charm
 	4:
-	thaumcraft:lamp_arcane // Arcane Lamp
-	twilightforest:charm_of_life_2 // Charm of Life II
-	twilightforest:charm_of_keeping_3 // Charm of Keeping III
-	iceandfire:pixie_dust // Pixie Dust
-	extrautils2:ingredients:12 // Enchanted Ingot
-	thaumicwonders:panacea:1 // Enchanted Panacea
-	5:
 	thaumcraft:pech_wand // Pech Wand
 	thaumcraft:amulet_vis // Vis Stone
 	thaumcraft:charm_undying // Charm of Undying

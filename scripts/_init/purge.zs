@@ -105,8 +105,6 @@ furnace.remove(<*>, <ic2:resource:1>);
 furnace.remove(<*>, <ic2:resource:2>);
 furnace.remove(<*>, <ic2:resource:3>);
 furnace.remove(<*>, <ic2:resource:4>);
-furnace.remove(<*>, <iceandfire:sapphire_ore:*>);
-furnace.remove(<*>, <iceandfire:silver_ore:*>);
 furnace.remove(<*>, <immersiveengineering:metal:9>);
 furnace.remove(<*>, <immersiveengineering:metal:10>);
 furnace.remove(<*>, <immersiveengineering:metal:11>);

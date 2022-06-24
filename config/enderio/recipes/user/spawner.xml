@@ -5,13 +5,6 @@
       <entity name="minecraft:villager" costMultiplier="10.0" disabled="false"/>
     </spawning>
   </recipe>
-  <recipe name="Spawner, Ice and Fire" required="false">
-    <spawning>
-      <entity name="iceandfire:firedragon" costMultiplier="30.0" disabled="false"/>
-      <entity name="iceandfire:icedragon" costMultiplier="30.0" disabled="false"/>
-      <entity name="iceandfire:snowvillager" costMultiplier="1.0" disabled="false"/>
-	</spawning>
-  </recipe>
   <recipe name="Spawner, Wither" required="true">
     <spawning>
     <entity name="minecraft:wither" costMultiplier="50" disabled="true" soulvial="false"/>

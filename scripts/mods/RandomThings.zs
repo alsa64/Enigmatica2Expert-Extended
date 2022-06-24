@@ -356,7 +356,6 @@ mods.rt.RandomThingsTweaker.addImbuingRecipe(
 );
 mods.rt.RandomThingsTweaker.addImbuingRecipe(
 	<minecraft:netherbrick>,
-	<iceandfire:wither_shard>,
 	<minecraft:soul_sand>,
 	<minecraft:potion>.withTag({Potion: "minecraft:water"}),
 	<randomthings:imbue:3>

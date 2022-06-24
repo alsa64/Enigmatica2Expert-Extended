@@ -230,15 +230,6 @@ var listCatFur as string[] = [
 "botania:manaresource"               ,"12","1" ,
 "botania:manaresource"               ,"16","5" ,
 "extrautils2:endershard"             ,"0" ,"35",
-"iceandfire:amphithere_feather"      ,"0" ,"40",
-"iceandfire:dragonbone"              ,"0" ,"8" ,
-"iceandfire:myrmex_desert_chitin"    ,"0" ,"8" ,
-"iceandfire:myrmex_jungle_chitin"    ,"0" ,"8" ,
-"iceandfire:deathworm_chitin"        ,"0" ,"5" ,
-"iceandfire:deathworm_chitin"        ,"1" ,"5" ,
-"iceandfire:deathworm_chitin"        ,"2" ,"5" ,
-"iceandfire:stymphalian_bird_feather","0" ,"40",
-"iceandfire:witherbone"              ,"0" ,"8" ,
 "immersiveengineering:bullet"        ,"0" ,"15",
 "industrialforegoing:tinydryrubber"  ,"0" ,"10",
 "minecraft:bone"                     ,"0" ,"30",
@@ -495,11 +486,10 @@ craft.remake(<actuallyadditions:block_phantom_liquiface>, [
 # [Spawner Changer] from [Terrestrial Artifact][+3]
 recipes.removeShaped(<actuallyadditions:item_spawner_changer>);
 craft.make(<actuallyadditions:item_spawner_changer>, ["pretty",
-  "R S ▲",
+  "▲ S ▲",
   "S T S",
   "▲ S ▲"], {
   "▲": <scalinghealth:heartdust>,            # Heart Dust
-  "R": <iceandfire:rotten_egg>,              # Rotten Egg
   "S": <actuallyadditions:item_misc:20>,     # Spawner Shards
   "T": <biomesoplenty:terrestrial_artifact>, # Terrestrial Artifact
 });
@@ -671,7 +661,7 @@ craft.remake(<actuallyadditions:quartz_paxel>, ["pretty",
   "#    "], {
   "⌃": <ore:blockQuartzBlack>,        # Block of Black Quartz
   "B": <extendedcrafting:material:8>, # Basic Catalyst
-  "#": <iceandfire:dreadwood_planks>, # Dreadwood Planks
+  "#": <ore:plankTreatedWood>,        # Treated Wood Planks
 });
 
 # [Golden AIOT] from [Advanced Catalyst][+2]
@@ -682,7 +672,7 @@ craft.remake(<actuallyadditions:gold_paxel>, ["pretty",
   "#    "], {
   "□": <ore:plateDenseGold>,          # Dense Gold Plate
   "A": <extendedcrafting:material:9>, # Advanced Catalyst
-  "#": <iceandfire:dreadwood_planks>, # Dreadwood Planks
+  "#": <ore:plankTreatedWood>,        # Treated Wood Planks
 });
 
 # [Diamond AIOT] from [Elite Catalyst][+2]
@@ -693,7 +683,7 @@ craft.remake(<actuallyadditions:diamond_paxel>, ["pretty",
   "#    "], {
   "I": <rftools:infused_diamond>,      # Infused Diamond
   "U": <extendedcrafting:material:10>, # Elite Catalyst
-  "#": <iceandfire:dreadwood_planks>,  # Dreadwood Planks
+  "#": <ore:plankTreatedWood>,         # Treated Wood Planks
 });
 
 # [Emerald AIOT] from [Ultimate Catalyst][+2]
@@ -704,7 +694,7 @@ craft.remake(<actuallyadditions:emerald_paxel>, ["pretty",
   "#    "], {
   "*": <actuallyadditions:block_crystal_empowered:4>, # Empowered Emeradic Crystal Block
   "U": <extendedcrafting:material:11>, # Ultimate Catalyst
-  "#": <iceandfire:dreadwood_planks>,  # Dreadwood Planks
+  "#": <ore:plankTreatedWood>,         # Treated Wood Planks
 });
 
 # [Energizer] from [Restonia Crystal Block][+2]

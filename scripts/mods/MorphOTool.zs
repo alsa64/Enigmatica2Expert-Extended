@@ -30,7 +30,6 @@ val superMOT = <morphtool:tool>.withTag({"morphtool:is_morphing": 1 as byte, "mo
 	mekanism:            {id:"mekanism:configurator",                       Count: 1 as byte, Damage: 0 as short},
 	immersiveengineering:{id:"immersiveengineering:tool",                   Count: 1 as byte, Damage: 0 as short},
 	rats:                {id:"rats:cheese_stick",                           Count: 1 as byte, Damage: 0 as short},
-	iceandfire:          {id:"iceandfire:dragon_stick",                     Count: 1 as byte, Damage: 0 as short},
 	},
 });
 

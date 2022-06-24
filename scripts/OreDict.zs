@@ -55,7 +55,7 @@ removeItems(<ore:oreArdite>, [<tconstruct:metal>, <tconstruct:ore>]);
 
 # Fixing the Mineralis Ritual
 remove(<ore:oreNickel>, <immersiveengineering:ore:4>);
-removeItems(<ore:oreSilver>, [<iceandfire:silver_ore>, <immersiveengineering:ore:3>]);
+removeItems(<ore:oreSilver>, [<immersiveengineering:ore:3>]);
 removeItems(<ore:oreTin>, [<forestry:resources:2>, <ic2:resource:3>, <nuclearcraft:ore:1>, <mekanism:oreblock:2>, <libvulpes:ore0:5>]);
 removeItems(<ore:oreAluminum>, [<immersiveengineering:ore:1>, <libvulpes:ore0:9>]);
 removeItems(<ore:oreCopper>, [<immersiveengineering:ore>, <ic2:resource:1>, <forestry:resources:1>, <nuclearcraft:ore>, <mekanism:oreblock:1>, <libvulpes:ore0:4>]);
@@ -206,8 +206,6 @@ add(<ore:chipDiamond>, <thermalfoundation:material:16>);
 
 # Dragon hearts
 add(<ore:heartDragon>, <draconicevolution:dragon_heart>);
-add(<ore:heartDragon>, <iceandfire:fire_dragon_heart>);
-add(<ore:heartDragon>, <iceandfire:ice_dragon_heart>);
 
 # Crafting hammers
 add(<ore:craftingToolForgeHammer>, <immersiveengineering:tool>);
@@ -427,10 +425,6 @@ for item in loadedMods["jaopca"].items {
   if(item.definition.id.matches("jaopca:item_hunk\\w+"))
     removeHunkOre(item);
 }
-
-# Myrmex
-addItems(<ore:myrmexEgg>, [<iceandfire:myrmex_desert_egg:*>, <iceandfire:myrmex_jungle_egg:*>]);
-addItems(<ore:blockMyrmexResin>, [<iceandfire:myrmex_desert_resin_block>, <iceandfire:myrmex_jungle_resin_block>]);
 
 # Milk powder as milk
 addItems(<ore:listAllmilk>, [<ic2:dust:33>]);

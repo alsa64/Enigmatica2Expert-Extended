@@ -409,7 +409,6 @@ val itemsToRecycle as string[] = [
 "psi:psimetal_exosuit_chestplate"        , "6"   , PSI                               , "psimetal"         ,
 "psi:psimetal_exosuit_leggings"          , "5"   , PSI                               , "psimetal"         ,
 "psi:psimetal_exosuit_boots"             , "2"   , PSI                               , "psimetal"         ,
-"iceandfire:troll_weapon.axe"            , "8"   , IRN                               , "iron"             ,
 "bloodmagic:living_armour_helmet"        , "5"   , IRN                               , "iron"             ,
 "bloodmagic:living_armour_chest"         , "8"   , IRN                               , "iron"             ,
 "bloodmagic:living_armour_leggings"      , "7"   , IRN                               , "iron"             ,
@@ -425,7 +424,6 @@ val itemsToRecycle as string[] = [
 "ic2:quantum_chestplate"                 , "1"   , "thermalfoundation:material:135"  , "iridium"          ,
 "ic2:quantum_helmet"                     , "1"   , "thermalfoundation:material:135"  , "iridium"          ,
 "ic2:quantum_leggings"                   , "1"   , "thermalfoundation:material:135"  , "iridium"          ,
-"iceandfire:troll_weapon.hammer"         , "8"   , "mechanics:heavy_ingot"           , "heavy_metal"      ,
 "animus:kama_diamond"                    , "8"   , "minecraft:diamond"               , ""                 ,
 "botania:manaweavehelm"                  , "20"  , "botania:manaresource:16"         , "!saw"             ,
 "botania:manaweavechest"                 , "32"  , "botania:manaresource:16"         , "!saw"             ,
@@ -501,11 +499,3 @@ mods.bloodmagic.AlchemyTable.addRecipe(<bloodmagic:component:8> , [<bloodmagic:l
 mods.bloodmagic.AlchemyTable.addRecipe(<bloodmagic:component:8> , [<bloodmagic:living_armour_leggings>] , 300 , 40 , 3);
 mods.bloodmagic.AlchemyTable.addRecipe(<bloodmagic:component:8> , [<bloodmagic:living_armour_boots>]    , 300 , 40 , 3);
 mods.bloodmagic.AlchemyTable.addRecipe(<bloodmagic:component:8> , [<animus:kama_bound>]                 , 300 , 40 , 3);
-
-
-# Some troll items can be disassembled on crafting table
-recipes.addShapeless("Disassemble troll column"       , <extrautils2:compressedcobblestone> * 4                 , [<iceandfire:troll_weapon.column>]);
-recipes.addShapeless("Disassemble troll column_forest", <additionalcompression:cobblestonemossy_compressed> * 4 , [<iceandfire:troll_weapon.column_forest>]);
-recipes.addShapeless("Disassemble troll column_frost" , <quark:biome_cobblestone:1> * 36                        , [<iceandfire:troll_weapon.column_frost>]);
-recipes.addShapeless("Disassemble troll trunk"        , <twilightforest:giant_log>                              , [<iceandfire:troll_weapon.trunk>]);
-recipes.addShapeless("Disassemble troll trunk_frost"  , <integrateddynamics:menril_log> * 36                    , [<iceandfire:troll_weapon.trunk_frost>]);

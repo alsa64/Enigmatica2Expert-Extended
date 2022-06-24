@@ -39,13 +39,6 @@
 		}]
 	},
 	{
-		uid: "ea2d0e79",
-		type: "item",
-		items: [{
-			item: "iceandfire:silverpile"
-		}]
-	},
-	{
 		uid: "66053453",
 		type: "item",
 		items: [{

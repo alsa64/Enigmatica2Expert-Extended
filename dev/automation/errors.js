@@ -230,7 +230,6 @@ const ignore = [
   /\[toolprogression\]: Failed to set tool class of item 'redstonearsenal:tool.pickaxe_flux'/,
   /\[toolprogression\]: Failed to set tool class of item 'redstonearsenal:tool.hammer_flux'/,
   /\[toolprogression\]: Failed to set tool class of item 'redstonearsenal:tool.hammer_flux'/,
-  /\[forestry\]: Failed to find item for \(iceandfire:jungle_myrmex_coccon\) in the Forge registry./,
   /\[enderio\]: Item used in cast recipe .* doesn't smelt into a fluid/,
   /\[keywizard\]: Controls gui override enabled, this may cause problems with other mods/,
   /\[keywizard\]: Conflicting mod detected, controls gui override may not work/,

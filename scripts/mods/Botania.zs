@@ -322,13 +322,6 @@ for i, sapling in saplings {
 	}
 }
 
-# Dragon Bone conversion for rune recipes
-mods.botania.ManaInfusion.addAlchemy(<iceandfire:dragonbone>, <ore:blockBone>, 420);
-
-# Myrmex conversion
-mods.botania.ManaInfusion.addAlchemy(<iceandfire:myrmex_desert_resin>, <iceandfire:myrmex_jungle_resin>, 120);
-mods.botania.ManaInfusion.addAlchemy(<iceandfire:myrmex_jungle_resin>, <iceandfire:myrmex_desert_resin>, 120);
-
 # Colored Glass -> Quark Cave Crystals
 mods.botania.PureDaisy.addRecipe(<ore:blockGlassWhite>,  <quark:crystal>);
 mods.botania.PureDaisy.addRecipe(<ore:blockGlassRed>,    <quark:crystal:1>);

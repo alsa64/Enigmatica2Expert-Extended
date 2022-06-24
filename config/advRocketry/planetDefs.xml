@@ -94,7 +94,7 @@
 			</planet>
 		</planet>
 		<planet name="Uranus" DIMID="109" customIcon="iceworld">
-			<biomeIds>biomesoplenty:alps,iceandfire:glacier</biomeIds>
+			<biomeIds>biomesoplenty:alps</biomeIds>
 			<skyColor>0,0.9,1</skyColor>
 			<fogColor>0.9,0.9,0.9</fogColor>
 			<atmosphereDensity>0</atmosphereDensity>
@@ -223,7 +223,7 @@
 	</star>
 	<star name="HD 63776" temp="87" x="6" y="-142" numPlanets="0" numGasGiants="0">
 		<planet name="KELT-4ab" DIMID="120" customIcon="iceworld">
-			<biomeIds>biomesoplenty:alps,iceandfire:glacier,biomesoplenty:alps_foothills,biomesoplenty:glacier</biomeIds>
+			<biomeIds>biomesoplenty:alps,biomesoplenty:alps_foothills,biomesoplenty:glacier</biomeIds>
 			<skyColor>0,1,0</skyColor>
 			<fogColor>0,0,1</fogColor>
 			<hasRings>true</hasRings>

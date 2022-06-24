@@ -81,66 +81,6 @@
         "damage": 6,
         "count": 1
       }
-    },
-    {
-      "weight": 0.3978064954280853,
-      "min": 1,
-      "max": 6,
-      "item": {
-        "id": "iceandfire:sea_serpent_scales_blue",
-        "damage": 0,
-        "count": 1
-      }
-    },
-    {
-      "weight": 0.32298368215560913,
-      "min": 1,
-      "max": 6,
-      "item": {
-        "id": "iceandfire:sea_serpent_scales_bronze",
-        "damage": 0,
-        "count": 1
-      }
-    },
-    {
-      "weight": 0.35883715748786926,
-      "min": 1,
-      "max": 6,
-      "item": {
-        "id": "iceandfire:sea_serpent_scales_deepblue",
-        "damage": 0,
-        "count": 1
-      }
-    },
-    {
-      "weight": 0.3978064954280853,
-      "min": 1,
-      "max": 6,
-      "item": {
-        "id": "iceandfire:sea_serpent_scales_purple",
-        "damage": 0,
-        "count": 1
-      }
-    },
-    {
-      "weight": 0.5354365706443787,
-      "min": 1,
-      "max": 6,
-      "item": {
-        "id": "iceandfire:sea_serpent_scales_red",
-        "damage": 0,
-        "count": 1
-      }
-    },
-    {
-      "weight": 0.4858947992324829,
-      "min": 1,
-      "max": 6,
-      "item": {
-        "id": "iceandfire:sea_serpent_scales_teal",
-        "damage": 0,
-        "count": 1
-      }
     }
   ],
   "dependencyExpression": ""

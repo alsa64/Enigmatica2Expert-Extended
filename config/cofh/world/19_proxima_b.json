@@ -17,7 +17,7 @@
 						"block": "air",
 						"diameter": 8,
 						"size-variance": 5,
-						"material": "iceandfire:frozen_stone"
+						"material": "minecraft:stone"
 					},{
 						"type": "plate",
 						"block": {"name":"quark:crystal", "metadata": 6},
@@ -57,18 +57,18 @@
 			"generator": {
 				"type": "consecutive",
 				"generators": [
-					{"type": "sequential","generators": [{"block": "minecraft:stone","material": "iceandfire:frozen_stone","cluster-size": 80},
+					{"type": "sequential","generators": [{"block": "minecraft:stone","material": "minecraft:stone","cluster-size": 80},
 							{"block": "appliedenergistics2:quartz_ore","cluster-size": 40,"type": "large-vein"},
 							{"block": "appliedenergistics2:charged_quartz_ore","cluster-size": 40,"type": "large-vein"},
 							{"block": "rftools:dimensional_shard_ore","cluster-size": 10,"type": "large-vein"}
 						]},
-					{"type": "sequential","generators": [{"block": "minecraft:stone","material": "iceandfire:frozen_stone","cluster-size": 30},
+					{"type": "sequential","generators": [{"block": "minecraft:stone","material": "minecraft:stone","cluster-size": 30},
 							{"block": {"name":"biomesoplenty:gem_ore", "metadata": 6},"cluster-size": 10,"type": "large-vein"},
 							{"block": "libvulpes:ore0","cluster-size": 20,"type": "large-vein"},
 							{"block": "mysticalagriculture:prosperity_ore","cluster-size": 10,"type": "large-vein"},
 							{"block": "minecraft:emerald_ore","cluster-size": 10,"type": "large-vein"}
 						]},
-					{"type": "sequential","generators": [{"block": "minecraft:stone","material": "iceandfire:frozen_stone","cluster-size": 30},
+					{"type": "sequential","generators": [{"block": "minecraft:stone","material": "minecraft:stone","cluster-size": 30},
 							{"block": "astralsorcery:blockcustomore","cluster-size": 2,"type": "large-vein"},
 							{"block": "minecraft:diamond_ore","cluster-size": 20,"type": "large-vein"}
 						]}
@@ -83,7 +83,7 @@
 					"name": "chisel:marble2",
 					"metadata": 7
 				},
-				"material": "iceandfire:frozen_stone",
+				"material": "minecraft:stone",
 				"cluster-size": 48
 			},
 			"cluster-count": 7,
@@ -92,13 +92,13 @@
 			"dimension": {"restriction": "whitelist","value": [111]}
 		},
 		
-		"proxima_ice_frozen_dirt":        {"distribution": "uniform","generator": {"block":"iceandfire:frozen_dirt"       ,"material": "iceandfire:frozen_stone","cluster-size": 38},
+		"proxima_ice_frozen_dirt":        {"distribution": "uniform","generator": {"block":"minecraft:dirt"       ,"material": "minecraft:stone","cluster-size": 38},
 		"cluster-count": 9, "min-height": 4, "max-height": 80, "dimension": {"restriction": "whitelist","value": [111]}},
 		
-		"proxima_ice_frozen_cobblestone": {"distribution": "uniform","generator": {"block":"iceandfire:frozen_cobblestone","material": "iceandfire:frozen_stone","cluster-size": 58},
+		"proxima_ice_frozen_cobblestone": {"distribution": "uniform","generator": {"block":"minecraft:cobblestone","material": "minecraft:stone","cluster-size": 58},
 		"cluster-count": 9, "min-height": 60, "max-height": 80, "dimension": {"restriction": "whitelist","value": [111]}},
 		
-		"proxima_ice_frozen_gravel":      {"distribution": "uniform","generator": {"block":"iceandfire:frozen_gravel"     ,"material": "iceandfire:frozen_stone","cluster-size": 28},
+		"proxima_ice_frozen_gravel":      {"distribution": "uniform","generator": {"block":"minecraft:gravel"     ,"material": "minecraft:stone","cluster-size": 28},
 			"cluster-count": 9, "min-height": 30, "max-height": 70, "dimension": {"restriction": "whitelist","value": [111]}},
 
 		"proxima_huge_ice_spheres": {
@@ -106,7 +106,7 @@
 			"generator": {
 				"block": "packed_ice",
 				"cluster-size": 300,
-				"material": "iceandfire:frozen_stone"
+				"material": "minecraft:stone"
 			},
       "chunk-chance": 1,
 			"cluster-count": 20,
@@ -120,7 +120,7 @@
 			"generator": {
 				"block": "ice",
 				"cluster-size": 200,
-				"material": "iceandfire:frozen_stone"
+				"material": "minecraft:stone"
 			},
       "chunk-chance": 1,
 			"cluster-count": 8,
@@ -132,42 +132,42 @@
 		"stalactite_0": {
 			"distribution": "cave",
 			"ceiling": true, "ground-level": 80, "cluster-count": 50, "chunk-chance": 10, "dimension": {"restriction": "whitelist","value": [111]},
-			"generator": { "type": "stalactite", "gen-size": 1, "min-height": 1, "height-variance": 1,"material": "iceandfire:frozen_stone",
+			"generator": { "type": "stalactite", "gen-size": 1, "min-height": 1, "height-variance": 1,"material": "minecraft:stone",
 				"block": {"name": "actuallyadditions:block_crystal_cluster_diamond", "properties": {"facing":"down"}}
 			}
 		},
 		"stalactite_1": {
 			"distribution": "cave",
 			"ceiling": true, "ground-level": 80, "cluster-count": 50, "chunk-chance": 10, "dimension": {"restriction": "whitelist","value": [111]},
-			"generator": { "type": "stalactite", "gen-size": 1, "min-height": 1, "height-variance": 1,"material": "iceandfire:frozen_stone",
+			"generator": { "type": "stalactite", "gen-size": 1, "min-height": 1, "height-variance": 1,"material": "minecraft:stone",
 				"block": {"name": "actuallyadditions:block_crystal_cluster_lapis", "properties": {"facing":"down"}}
 			}
 		},
 		"stalactite_2": {
 			"distribution": "cave",
 			"ceiling": true, "ground-level": 80, "cluster-count": 50, "chunk-chance": 10, "dimension": {"restriction": "whitelist","value": [111]},
-			"generator": { "type": "stalactite", "gen-size": 1, "min-height": 1, "height-variance": 1,"material": "iceandfire:frozen_stone",
+			"generator": { "type": "stalactite", "gen-size": 1, "min-height": 1, "height-variance": 1,"material": "minecraft:stone",
 				"block": {"name": "actuallyadditions:block_crystal_cluster_emerald", "properties": {"facing":"down"}}
 			}
 		},
 		"stalactite_3": {
 			"distribution": "cave",
 			"ceiling": true, "ground-level": 80, "cluster-count": 50, "chunk-chance": 10, "dimension": {"restriction": "whitelist","value": [111]},
-			"generator": { "type": "stalactite", "gen-size": 1, "min-height": 1, "height-variance": 1,"material": "iceandfire:frozen_stone",
+			"generator": { "type": "stalactite", "gen-size": 1, "min-height": 1, "height-variance": 1,"material": "minecraft:stone",
 				"block": {"name": "actuallyadditions:block_crystal_cluster_redstone", "properties": {"facing":"down"}}
 			}
 		},
 		"stalactite_4": {
 			"distribution": "cave",
 			"ceiling": true, "ground-level": 80, "cluster-count": 50, "chunk-chance": 10, "dimension": {"restriction": "whitelist","value": [111]},
-			"generator": { "type": "stalactite", "gen-size": 1, "min-height": 1, "height-variance": 1,"material": "iceandfire:frozen_stone",
+			"generator": { "type": "stalactite", "gen-size": 1, "min-height": 1, "height-variance": 1,"material": "minecraft:stone",
 				"block": {"name": "actuallyadditions:block_crystal_cluster_iron", "properties": {"facing":"down"}}
 			}
 		},
 		"stalactite_5": {
 			"distribution": "cave",
 			"ceiling": true, "ground-level": 80, "cluster-count": 50, "chunk-chance": 10, "dimension": {"restriction": "whitelist","value": [111]},
-			"generator": { "type": "stalactite", "gen-size": 1, "min-height": 1, "height-variance": 1,"material": "iceandfire:frozen_stone",
+			"generator": { "type": "stalactite", "gen-size": 1, "min-height": 1, "height-variance": 1,"material": "minecraft:stone",
 				"block": {"name": "actuallyadditions:block_crystal_cluster_coal", "properties": {"facing":"down"}}
 			}
 		},

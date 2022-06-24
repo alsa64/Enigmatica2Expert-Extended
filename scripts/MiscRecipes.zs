@@ -413,11 +413,10 @@ craft.shapeless(<libvulpes:productingot:3> * 9,   "A", {A: <contenttweaker:silic
 # [Conglomerate Of Life]*2 from [Cheese Wheel][+4]
 craft.make(<contenttweaker:conglomerate_of_life> * 2, ["pretty",
   "▲ B ▲",
-  "D W D",
+  "W W W",
   "▲ C ▲"], {
   "▲": <scalinghealth:heartdust>,           # Heart Dust
   "B": <randomthings:rezstone>,             # Blood Stone
-  "D": <iceandfire:dragon_meal>,            # Dragon Meal
   "W": <ore:cheeseWheels>,                  # Cheese Wheel
   "C": <cyclicmagic:crystallized_obsidian>, # Crystallized Obsidian
 });

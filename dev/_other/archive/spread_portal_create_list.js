@@ -56,9 +56,6 @@ const hellItems = [
   'minecraft:iron_ore'],
   'netherendingores:ore_nether_modded_1'],
 
-  ['iceandfire:ash',
-  'chisel:block_coal_coke'],
-
   ['minecraft:diamond_block',
   'minecraft:gold_block'],
 

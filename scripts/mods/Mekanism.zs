@@ -632,8 +632,6 @@ val bioFuelList = {
 	<exnihilocreatio:item_cooked_silkworm>   : 6,  # Cooked Silkworm
 	<ore:cropMelon>                          : 8,  # Melon
 	<twilightforest:raw_meef>                : 8,  # Raw Meef
-	<iceandfire:myrmex_desert_biolight>      : 10, # Desert Myrmex Bioluminescence
-	<iceandfire:myrmex_jungle_biolight>      : 10, # Jungle Myrmex Bioluminescence
 	<ic2:crafting:20>                        : 10, # Plantball
 	<actuallyadditions:item_worm>            : 16, # Worm
 	<twilightforest:cooked_meef>             : 10, # Meef Steak

@@ -807,7 +807,6 @@ add(x, {[<chisel:basalt2:*>] : [<tconstruct:seared>]});
 add(x, {[<chisel:bricks:*>] : [<minecraft:red_nether_brick>]});
 add(x, {[<chisel:limestone:*>, <minecraft:sandstone:*>] : [<mysticalagriculture:soulstone>]});
 add(x, {[<chisel:marble2:*>, <astralsorcery:blockmarble:*>] : [<thaumictinkerer:black_quartz_block> * 10, <botania:quartztypedark>]});
-add(x, {[<iceandfire:ash:*>] : [<chisel:block_coal_coke>]});
 add(x, {[<minecraft:brick_block:*>] : [<minecraft:nether_brick>]});
 add(x, {[<minecraft:diamond_block:*>] : [<minecraft:gold_block>]});
 add(x, {[<minecraft:emerald_block:*>] : [<tconstruct:metal>]});
@@ -1289,7 +1288,6 @@ add_barrel_milking(Soul("betteranimalsplus:hirschgeist")  , <liquid:platinum>   
 add_barrel_milking(Soul("industrialforegoing:pink_slime") , <liquid:if.pink_slime>      * 10  , 20);
 add_barrel_milking(Soul("rats:neo_ratlantean")            , <liquid:crystal_matrix>     * 1   , 20);
 add_barrel_milking(Soul("draconicevolution:chaosguardian"), <liquid:chaotic_metal>      * 10  , 20);
-add_barrel_milking(Soul("iceandfire:if_cockatrice")       , <liquid:gelatin>            * 10  , 20);
 /**/
 
 
@@ -1590,13 +1588,6 @@ MAGE: [[
     <cyclicmagic:charm_antidote>,
     <cyclicmagic:charm_boat>,
     <cyclicmagic:charm_fire>,
-  ], [
-    <thaumcraft:lamp_arcane>,
-    <twilightforest:charm_of_life_2>,
-    <twilightforest:charm_of_keeping_3>,
-    <iceandfire:pixie_dust>,
-    <extrautils2:ingredients:12>,
-    <thaumicwonders:panacea:1>,
   ], [
     <thaumcraft:pech_wand>,
     <thaumcraft:amulet_vis>,
