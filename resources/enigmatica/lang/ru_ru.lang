@@ -460,7 +460,6 @@ item.avaritiaio:grindingballinfinity.name=Бесконечный шлифова�
 item.avaritiaio:grindingballneutronium.name=Шлифовальный шар из нейтрония
 item.avaritiaio:infinitecapacitor.name=Конденсатор бесконечности
 item.base.wrench.name=Гаечный ключ
-tile.bedrockores.bedrock_miner.name=Коренной шахтер
 tile.terrarium.terrarium_beach.name=Пляжный Террариум
 tile.bloodmagic.bricks2.smallbrick_raw.name=Маленькие необработанные каменные кирпичи
 tile.bloodmagic.bricks2.smallbrick_corrosive.name=Небольшие коррозионные каменные кирпичи

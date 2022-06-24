@@ -326,16 +326,6 @@ scripts.process.crush(<minecraft:arrow>, <minecraft:flint>, "no exceptions", [<o
 # Make Quicksand
 scripts.process.solution([<ore:soulSand>], [<liquid:blueslime>*1000], [<liquid:sand>*1000], null, "except: highoven");
 
-# [Bedrock Miner] from [Grains of Infinity][+2]
-craft.remake(<bedrockores:bedrock_miner>, ["pretty",
-  "⌂ ⌃ ⌂",
-  "⌃ ▲ ⌃",
-  "⌂ ⌃ ⌂"], {
-  "⌂": <ic2:casing:4>,       # Lead Item Casing
-  "⌃": <ore:gemQuartzBlack>, # Black Quartz
-  "▲": <ore:dustBedrock>,    # Grains of Infinity
-});
-
 # [Sandwich_Station] from [Cooking_Table][+3]
 recipes.remove(<culinaryconstruct:sandwich_station>);
 mods.extendedcrafting.TableCrafting.addShaped(0,

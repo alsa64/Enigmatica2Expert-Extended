@@ -218,7 +218,6 @@ for lang, items in {
   ],
 
   "tag.miner" : [
-    <bedrockores:bedrock_miner>,
     <cyclicmagic:block_miner_smart>,
     <ic2:te:57>,
     <ic2:te:60>,
