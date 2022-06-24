@@ -7,7 +7,7 @@
 		"{bq.quest723.desc}"
 	],
 	dependencies: [
-		"67de8e53"
+		"46340f69"
 	],
 	size: 1.4166666666666667d,
 	tasks: [{
