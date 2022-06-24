@@ -509,7 +509,6 @@ soulRecipe("minecraft:magma_cube"         , [<aspect:exanimis> * 500, <aspect:lu
 soulRecipe("minecraft:witch"              , [<aspect:exanimis> * 500, <aspect:praecantatio> * 500]);
 soulRecipe("minecraft:blaze"              , [<aspect:exanimis> * 500, <aspect:sonus>        * 500]);
 soulRecipe("minecraft:shulker"            , [<aspect:exanimis> * 500, <aspect:machina>      * 500]);
-soulRecipe("minecraft:guardian"           , [<aspect:exanimis> * 500, <aspect:mythus>       * 500]);
 soulRecipe("minecraft:enderman"           , [<aspect:exanimis> * 500, <aspect:alienis>      * 500]);
 
 soulRecipe("minecraft:horse"              , [<aspect:bestia> * 100, <aspect:machina>  * 100]);
@@ -535,7 +534,6 @@ soulRecipe("tconstruct:blueslime"        , [<aspect:caeles> * 100, <aspect:alkim
 soulRecipe("twilightforest:kobold"       , [<aspect:caeles> * 100, <aspect:praemunio>  * 100]);
 soulRecipe("twilightforest:swarm_spider" , [<aspect:caeles> * 100, <aspect:tenebrae>   * 100]);
 soulRecipe("twilightforest:penguin"      , [<aspect:caeles> * 100, <aspect:sensus>     * 100]);
-soulRecipe("twilightforest:minotaur"     , [<aspect:caeles> * 100, <aspect:mythus>     * 100]);
 
 soulRecipe("minecraft:villager"           , [<aspect:humanus> * 500, <aspect:rattus> * 500, <aspect:imperium> * 500]);
 soulRecipe("minecraft:villager_golem"     , [<aspect:humanus> * 500, <aspect:rattus> * 500, <aspect:caeles> * 500]);
