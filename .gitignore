@@ -1,7 +1,7 @@
 # Exclude files and directories in top directory
 /*
 ~*
-
+*/.DS_Store
 # Whitelist
 !scripts/
 !config/
